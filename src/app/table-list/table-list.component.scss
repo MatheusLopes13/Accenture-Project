@@ -1,0 +1,59 @@
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.container{
+width: 80%;
+
+}
+
+table{
+    width: 100%;
+    background-color: #f5f5dc;
+    text-align: center;
+}
+
+tr {
+    height: 40px;
+}
+ 
+
+th{
+    background-color: #DB7093;
+    color: white;
+}
+
+tr:hover{
+    background-color: white;
+    transition: 0.5s;
+}   
+
+
+
+
+.circle {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.clear {
+    border: none;
+    color: rgba(red, 0.7);
+    
+}
+
+
+.purple {
+    color: #836FFF;
+}
+
+fa-icon {
+    cursor: pointer;
+}
+
