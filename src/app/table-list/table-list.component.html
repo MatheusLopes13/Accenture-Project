@@ -50,5 +50,14 @@
             </tr>
 
         </table>
+        <div class="d-flex justify-content-center mt-4">
+            <pagination 
+                [itemsPerPage]="20"
+                (pageChanged)="changePage($event)"
+                pageBtnClass="btn-purple"
+                [maxSize]="tableData?.totalPages" 
+                [totalItems]="tableData?.totalElements">
+            </pagination>
+        </div>
     </div>
 </div>

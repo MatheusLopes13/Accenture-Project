@@ -37,6 +37,13 @@ export class TableListComponent implements OnInit {
     
   }
 
+  changePage(event: any) {
+ 
+    this.page = event.page;
+    this.perPage = event.itemsPerPage;
+    this.getData();
+  }
+
   getData(){
     this.crudService.getData(this.page, this.perPage).subscribe((x) => {
       this.tableData = x
